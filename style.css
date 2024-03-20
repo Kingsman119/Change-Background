@@ -1,0 +1,33 @@
+body {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+#btn {
+  padding: 15px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #000000;
+  transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-weight: 400;
+}
+
+#btn:hover {
+  background: #fff;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#btn:active {
+  padding: 5px;
+}
+
+h2 {
+  color: #000000;
+  font-weight: 800;
+}
